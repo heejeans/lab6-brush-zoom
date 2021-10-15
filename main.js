@@ -1,5 +1,5 @@
-import AreaChart from './AreaChart.js';
-import StackedAreaChart from './StackedAreaChart.js';
+import AreaChart from './components/AreaChart.js';
+import StackedAreaChart from './components/StackedAreaChart.js';
 
 d3.csv('https://cdn.glitch.com/ee969b39-5890-4207-8b9e-31577b0b6838%2Funemployment.csv?v=1603583788416', d=>{
     return{
